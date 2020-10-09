@@ -1,0 +1,76 @@
+body {
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+header img {
+    margin: 0;
+    width: 100%;
+}
+
+.navBar {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: goldenrod;
+    overflow: hidden;
+}
+
+.navBar a {
+    flex-grow: 1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    background-color: #f2f2f2;
+    color: goldenrod;
+}
+
+.main {
+    max-width: 600px;
+    height: 300px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+
+#message {
+    height: 118px;
+}
+
+#input {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+label {
+    justify-self: end;
+    margin-right: 10px;
+}
+
+#submit {
+    grid-column: 2;
+}
+
+footer {
+    width: 100%;
+    background-color: goldenrod;
+    color: #f2f2f2;
+    text-align: center;
+}

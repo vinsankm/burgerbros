@@ -1,0 +1,131 @@
+body {
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #f2f2f2, lightgrey, #f2f2f2);
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+header img {
+    margin: 0;
+    width: 100%;
+}
+
+.navBar {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: goldenrod;
+    overflow: hidden;
+}
+
+.navBar a {
+    flex-grow: 1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    background-color: #f2f2f2;
+    color: goldenrod;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+    background-image: url("https://i.imgur.com/4k638Ai.png");
+    background-repeat: repeat;
+    /* background-position: center; */
+}
+.slideshow {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    width: 100%;
+    display: none;
+}
+
+#curr {
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.text {
+    font-family: sans-serif;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.pars { 
+    font-family: sans-serif;
+    /* width: 66%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.welcome {
+    width: 66%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.welcometext {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: serif;
+}
+
+.welcome img {
+    border-radius: 10%;
+    width: 33%;
+}
+
+footer {
+    width: 100%;
+    background-color: goldenrod;
+    color: #f2f2f2;
+    text-align: center;
+}
