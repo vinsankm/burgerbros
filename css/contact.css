@@ -1,53 +1,23 @@
 body {
-    width: 100vw;
-    margin: 0;
-    overflow-x: hidden;
-}
-
-header {
-    width: 100%;
-    margin: 0;
-}
-
-header img {
-    margin: 0;
-    width: 100%;
-}
-
-.navBar {
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    background-color: goldenrod;
-    overflow: hidden;
-}
-
-.navBar a {
-    flex-grow: 1;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.navBar a:hover {
-    background-color: #f2f2f2;
-    color: goldenrod;
+    background-image: linear-gradient(to left, lightblue, lightgray, lightblue);
+    background-size: cover;
 }
 
 .main {
+    font-family: sans-serif;
     max-width: 600px;
     height: 300px;
     background-color: goldenrod;
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 1px;
-    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #message {
@@ -66,11 +36,4 @@ label {
 
 #submit {
     grid-column: 2;
-}
-
-footer {
-    width: 100%;
-    background-color: goldenrod;
-    color: #f2f2f2;
-    text-align: center;
 }

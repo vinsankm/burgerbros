@@ -1,50 +1,13 @@
-body {
-    width: 100vw;
-    margin: 0;
-    overflow-x: hidden;
-    background-image: linear-gradient(to right, #f2f2f2, lightgrey, #f2f2f2);
-}
-
-header {
-    width: 100%;
-    margin: 0;
-}
-
-header img {
-    margin: 0;
-    width: 100%;
-}
-
-.navBar {
-    font-family: sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    background-color: goldenrod;
-    overflow: hidden;
-}
-
-.navBar a {
-    flex-grow: 1;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.navBar a:hover {
-    background-color: #f2f2f2;
-    color: goldenrod;
-}
-
 .main {
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
     background-image: url("https://i.imgur.com/4k638Ai.png");
     background-repeat: repeat;
-    /* background-position: center; */
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: goldenrod;
+    margin-bottom: 30px;
 }
 .slideshow {
     max-width: 700px;
@@ -54,11 +17,13 @@ header img {
 
 .slides {
     width: 100%;
+    height: 100%;
     display: none;
 }
 
 #curr {
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prev, .next {
@@ -97,35 +62,73 @@ header img {
 
 .pars { 
     font-family: sans-serif;
-    /* width: 66%; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
-.welcome {
+.leftcard {
     width: 66%;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     align-self: center;
+    padding-bottom: 50px;
 }
 
-.welcometext {
+.leftcardtext {
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
     font-family: serif;
 }
 
-.welcome img {
-    border-radius: 10%;
-    width: 33%;
+.leftcard p {
+    margin-left: 10px;
+    font-family: serif;
+    text-align: left;
 }
 
-footer {
-    width: 100%;
-    background-color: goldenrod;
-    color: #f2f2f2;
+.leftcard img {
+    border-radius: 10%;
+    width: 30%;
+    max-height: 230px;
+    object-fit: cover;
+    object-position: 50% 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.burgerad {
+    width: 66%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-bottom: 50px;
+}
+
+.burgerad img {
+    border-radius: 10%;
+    width: 30%;
+    max-height: 230px;
+    object-fit: cover;
+    object-position: 50% 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adtext {
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: serif;
+    width: 70%;
+}
+
+.adtext p {
+    font-family: serif;
+    text-align: left;
 }
