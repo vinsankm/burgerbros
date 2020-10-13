@@ -101,12 +101,16 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#grubhub {
+#grubhub1 {
     width: 50%;
 }
 
-#grubhub img{
+#grubhub1 img{
     width: 100%;
+}
+
+#grubhub2 {
+    display: none;
 }
 
 h1 {
@@ -160,7 +164,7 @@ h1 {
     }
 
     .leftcard h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .leftcard p {
@@ -168,8 +172,33 @@ h1 {
     }
 
     .leftcard img {
-        width: 100px;
+        width: 120px;
         object-fit: fill;
         height: 90px;
+    }
+
+    .burgerad {
+        width: 100%;
+    }
+
+    .burgerad h1 {
+        font-size: 16px;
+    }
+
+    .burgerad p {
+        font-size: 11px;
+    }
+
+    .burgerad img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #grubhub1 {
+        display: none;
+    }
+
+    #grubhub2 {
+        display: block;
     }
 }
