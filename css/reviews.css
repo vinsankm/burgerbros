@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    width: 66%;
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-color: black;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+.review {
+    margin: 10px;
+    padding: 5px;
+    height: 100px;
+    display: grid;
+    border-style: solid;
+    border-color: black;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.name {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 125px;
+    text-align: left;
+    border-right-style: dashed;
+    border-right-color: gray;
+}
+
+.message {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: left;
+    padding-left: 10px;
+}
