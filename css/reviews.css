@@ -62,6 +62,7 @@
 @media (max-width: 800px) {
     .reviews {
         width: 100%;
+        border: 0;
     }
 
     .review {
