@@ -57,4 +57,23 @@
     to {
         transform: translateY(0);
     }
-  }
+}
+
+@media (max-width: 800px) {
+    .reviews {
+        width: 100%;
+    }
+
+    .review {
+        margin-bottom: 7px;
+    }
+
+    .name {
+        font-size: 13px;
+        width: 80px;
+    }
+
+    .message {
+        font-size: 13px;
+    }
+}
