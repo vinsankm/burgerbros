@@ -37,3 +37,9 @@ label {
 #submit {
     grid-column: 2;
 }
+
+@media (max-width: 800px) {
+    .main {
+        height: 350px;
+    }
+}
